@@ -3,4 +3,8 @@
     <string name="ingresar">Ingresar</string>
     <string name="contrase_a">Contraseña</string>
     <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="fragmento_1">Fragmento 1</string>
+    <string name="fragmento_2">Fragmento 2</string>
+    <string name="fragmento_3">Fragmento 3</string>
+    <string name="fragmento_4">Fragmento 4</string>
 </resources>

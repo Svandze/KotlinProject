@@ -1,5 +1,6 @@
 package com.example.homemenuform
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -28,7 +29,18 @@ class MainActivity : AppCompatActivity() {
                     .show()
             } else if (et2.text.toString().length.equals(0)) {
                 Toast.makeText(this, "La contraseña no debe estar vacía.", Toast.LENGTH_LONG).show()
+            } else {
+                callActivity()
             }
+        }
+    }
+
+    private fun callActivity() {
+        val editText = findViewById<EditText>(R.id.inp_username)
+        val message =  editText.text.toString()
+        val intent=Intent(this,SecondActivity::class.java).also {
+            it.putExtra("EXTRA_MESSAGE",message)
+            startActivity(it)
         }
     }
 }
