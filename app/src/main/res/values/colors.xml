@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name= "fragment1">#E46A6A</color>
+    <color name= "fragment2">#ABB54C</color>
+    <color name= "fragment3">#3C72DD</color>
+    <color name= "fragment4">#53B657</color>
+
 </resources>
